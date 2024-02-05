@@ -1,0 +1,11 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input  [(ngModel)]="loginReq.id" matInput name="id" placeholder="ID">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input [(ngModel)]="loginReq.pwd" matInput name="pwd" placeholder="Password">
+  </mat-form-field>
+
+  <button mat-raised-button (click)="login()" color="primary">Login</button>
+</form>
